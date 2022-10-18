@@ -14,3 +14,4 @@
 | 문제 | 링크 | 알고리즘 |
 |---|---|---|
 | [백준 10757](https://www.acmicpc.net/problem/10757) | [풀이](./boj_rust/boj10757.rs) | 10^10000 큰 수 더하는 문제, 곱하기나 나누기는 어떠려나? |
+| [백준 1302](https://www.acmicpc.net/problem/1302) | [풀이](./boj_rust/boj1302.rs) | `HashMap`을 한 번 사용해보자.  |
