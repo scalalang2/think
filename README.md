@@ -9,6 +9,7 @@
 | 문제 | 링크 | 알고리즘 |
 |---|---|---|
 | [백준 22968 : AVL 트리 균형](https://www.acmicpc.net/problem/22968) | [풀이](./boj_rust/boj22968.rs) | 성질 파악하기 d[i] = d[i-2] + d[i-1] + 1 |
+| [백준 5639 : 이진 검색 트리](https://www.acmicpc.net/problem/5639) | [풀이](./boj_rust/boj5639.rs) | 이진 탐색 트리 구현하고 post order로 방문하기 |
 
 ### 애드-훅
 | 문제 | 링크 | 알고리즘 |
