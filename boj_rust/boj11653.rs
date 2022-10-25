@@ -22,16 +22,18 @@ impl Scanner {
 
 fn main() {
     let mut scan = Scanner::default();
-    let mut n = scan.next::<i64>();
+    let mut out = BufWriter::new(stdout());
+    let mut n = scan.next::<i32>();
     let mut x = 2;
 
-    while n != x {
-        if n % x == 0 {
-            n /= x;
-            println!("{}", x);
+    loop {
+        if n == 1{
+            break;
+        } else if n % x == 0 {
+            n = n / x;
+            writeln!(out, "{}", x).ok();
         } else {
             x += 1;
         }
     }
-    println!("{}", x);
 }
