@@ -8,7 +8,7 @@
 ### 동적 계획법
 | 문제 | 링크 | 알고리즘 |
 |---|---|---|
-| [백준 9465](https://www.acmicpc.net/problem/9465) | [풀이](./boj_rust/boj9465.rs) | dp[c+1][s] = max(dp[c][0], dp[c][1] + value[c][0], dp[c][2] + value[c][1] |
+| [백준 9465](https://www.acmicpc.net/problem/9465) | [풀이](./boj_rust/boj9465.rs) | f(c,s) = max(f(c+1,0), f(c+1,1) + v(c,0) + f(c+1,2) + v(c,1) <br/> 오른쪽에서 부터 답을 채워서 0번째 열에서 결론을 내는 방식으로 풀이 |
 
 ### 트리 문제
 | 문제 | 링크 | 알고리즘 |
