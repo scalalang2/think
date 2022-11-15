@@ -10,6 +10,7 @@
 |---|---|---|
 | [백준 9465](https://www.acmicpc.net/problem/9465) | [풀이](./boj_rust/boj9465.rs) | f(c,s) = max(f(c+1,0), f(c+1,1) + v(c,0) + f(c+1,2) + v(c,1) <br/> 오른쪽에서 부터 답을 채워서 0번째 열에서 결론을 내는 방식으로 풀이 |
 | [백준 2294](https://www.acmicpc.net/problem/2294) | [풀이](./boj_rust/boj2294.rs) | f(k) = min(f(k-coin) + 1 `for all coins`) |
+| [백준 2533](https://www.acmicpc.net/problem/2533) | [풀이](./boj_rust/boj2533.rs) | tree dp 어려워 |
 
 ### 트리 문제
 | 문제 | 링크 | 알고리즘 |
