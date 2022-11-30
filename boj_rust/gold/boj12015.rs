@@ -92,7 +92,5 @@ fn main() {
         update(&mut tree, index as usize, size, max + 1);
     }
 
-    println!("{:?}", tree);
-
     println!("{}", ans);
 }
