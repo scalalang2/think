@@ -13,6 +13,7 @@
 | [백준 2533](https://www.acmicpc.net/problem/2533) | [풀이](./boj_rust/boj2533.rs) | tree dp 어려워 |
 | [백준 9252](https://www.acmicpc.net/problem/9252) | [풀이](./boj_rust/boj9252.rs) | s[i] == s[j] ? dp[i][j] = dp[i-1][j-1] + 1 : dp[i][j] = max(dp[i-1][j], dp[i][j-1]) |
 | [백준 14002](https://www.acmicpc.net/problem/14002) | [풀이](./boj_rust/gold/boj14002.rs) | LIS 알고리즘 dp[i] = max(dp[i], dp[j]+1) |
+| [백준 2302](https://www.acmicpc.net/problem/2302) | [풀이](./boj_rust/silver/boj2302.rs) | [노트](./notes/boj2302.md) |
 
 ### 트리 문제
 | 문제 | 링크 | 알고리즘 |
